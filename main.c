@@ -16,7 +16,7 @@
 #define BTN_PIN 2 //P3.2 for bootloader entry.
 SBIT(BTN, 0xB0, BTN_PIN);
 
-SBIT(LED, 0x90, 1);
+SBIT(LED, 0xB0, 0);
 /*
 SBIT(TMS, 0x90, 4);
 SBIT(TCK, 0x90, 5);
@@ -24,7 +24,7 @@ SBIT(TDI, 0x90, 6);
 SBIT(TDO, 0x90, 7);
 */
 
-SBIT(TMS, 0x90, 4);
+SBIT(TMS, 0xB0, 1);
 SBIT(TCK, 0x90, 7);
 SBIT(TDI, 0x90, 5);
 SBIT(TDO, 0x90, 6);
